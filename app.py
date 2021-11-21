@@ -6,8 +6,8 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 base_activity = {
-    'details': 'Custom details',
-    'state' : 'Custom state',
+    'details': 'create a bot',
+    'state' : 'bot: on-line',
     'assets': {
         'large_image': 'image_name',
         'large_text': 'Image text',
